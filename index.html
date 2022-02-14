@@ -5,104 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       
+       body
+            {
+            background-image: url(CAMARA2.jpg);
+            background-size: cover;
+            padding-top: 5  0px;
+            margin-top: 100px;
+        }
+        button {
+            color: rgb(248, 246, 246);           
+            background-color: #916a53;
+            font-family:cursive }
+    </style>
 </head>
 <body>
-        <form action="./envio.html" method="get" required><center>
-        <H1>EMPIEZA LA AVENTURA Y CAPTA TUS MEJORES MOMENTOS</H1> </center>
-        <h2>NOMBRES
-        <input type="text"required> </h2>
-
-        <h2>APELLIDOS
-        <input type="text"required> </h2>
-
-        <h2>I.D
-        <input type="number"required> </h2>
-
-        <h2>INGRESA TU NUMERO DE CONTACTO
-        <input type="number"required> </h2>
-
-        <H2>INGRESA TU CORREO ELECTRONICO
-        <input type="email"required> </H2> 
-        <br> 
-        <h2>REGALANOS UNA FOTO TUYA "SONRIE"</h2><br>
-        <input type="file"required> 
-
-        <H2>GENERO</H2>
-            FEMENINO
-            <input type="radio"> 
-            MASCULINO
-            <input type="radio">
-
-            <h2>SELECCIONA TUS LUGARES PREFERIDOS</h2>
-            <input type="checkbox"> PLAYA
-            <input type="checkbox"> RESERVAS NATURALES
-            <input type="checkbox"> CIUDAD
-            <input type="checkbox"> MUSEOS
-            <input type="checkbox"> DESIERTO
-            <input type="checkbox"> PARQUES
-            <input type="checkbox"> NO TIENE PREFERENCIA
-
-            <h2>SELECCIONA TU CIUDAD DE RESIDENCIA
-            <select name="" id="">
-                <option value="">BOGOTA</option>
-                <option value="">CALI</option>
-                <option value="">MEDELLIN</option>
-                <option value="">BARRANQUILLA</option>
-                <option value="">CARTAGENA</option>
-                <option value="">SOACHA</option>
-                <option value="">IBAGUE</option>
-                <option value="">STA MARTA</option>
-                <option value="">PEREIRA</option>
-                <option value="">ARMENIA</option> </select> </h2>
-                
-            <h2>QUE MOMENTOS DESEAS CAPTURAR?
-            <select name="" id="">
-                <option value="">MODELO</option>
-                <option value="">EMBARAZO</option>
-                <option value="">BABY</option>
-                <option value="">BODA</option>
-                <option value="">15 PRIMAVERAS</option>
-                <option value="">TURISMO</option>
-                <option value="">BAUTIZOS Y COMUNIONES</option>
-                <option value="">GRADOS</option>
-                <option value="">CUMPLEAÑOS</option>
-                <option value="">ANIVERSARIOS</option>
-                <option value="">PERSONALIZADO</option></select>    </h2>
     
-
-            <style>
-            
-                h1 {color: rgb(12, 12, 12);
-                    background-color:rgb(192, 185, 142);
-                    font-family:cursive 
-                }
-                h2 {color: rgb(8, 8, 14);
-                    font-family:cursive }
-                    
-                body{ 
-                    background-image:URL(camara.jpg);
-                    background-size: cover;
-                    
-                }
-                option{color: rgb(102, 109, 52);
-                        font-family: cursive;}
-
-                button{background-color: rgb(109, 108, 52);
-                        font-family: cursive;
-                        border: 3px solid rgb(238, 237, 238);
-                        font-weight: 5000;
-                        border-radius: 10px;}
-
-                input{background-color: rgb(114, 96, 96);
-                    border: 3px solid rgb(14, 13, 14);
-                    }
-            </style>
-  
-            </select>
-        </form>  
-</body>  
-<form action="./registro.html">
-    <input type="submit" value="FINALIZAR"/> 
-
+    <center>
+        <img src="./inicio.jpg" alt=""width="150px"> <br><br>
+        <input type="text" placeholder="Escriba su Usuario"> 
+    </center>
+    <br><br>
+    <center>
+    <input type="password" placeholder="Escriba su Contraseña"> 
+    </center>
+    <br> <br>
+    <center>
+        <h1>¿No tiene ninguna cuenta?
+    <form action="./formulario.html">
+            <input type="submit" value="crear una"/> 
+        </h1>
+        </form>
+    <button>INICIAR SESION</button>
+    </center>
+    
 
 </html>
